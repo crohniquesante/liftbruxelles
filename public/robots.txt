@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.liftgobruxelles.be/sitemap.xml
+Host: https://www.liftgobruxelles.be

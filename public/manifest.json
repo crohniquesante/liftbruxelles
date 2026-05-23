@@ -1,0 +1,17 @@
+{
+  "name": "Lift & Go Bruxelles",
+  "short_name": "Lift Bruxelles",
+  "description": "Location de lift et monte-meuble à Bruxelles — lift déménagement professionnel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "lang": "fr-BE",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
