@@ -30,8 +30,13 @@ export function Footer() {
             <p className="font-semibold text-white">Contact</p>
             <ul className="mt-4 space-y-2 text-sm">
               <li>
-                <a href={SITE.phoneHref} className="transition hover:text-white">
-                  {SITE.phone}
+                <a
+                  href={SITE.phoneHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition hover:text-white"
+                >
+                  {SITE.phoneDisplay}
                 </a>
               </li>
               <li>

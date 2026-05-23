@@ -19,8 +19,10 @@ export function PhoneCTA({ size = "default", className = "" }: PhoneCTAProps) {
   return (
     <a
       href={SITE.phoneHref}
+      target="_blank"
+      rel="noopener noreferrer"
       className={`${sizes[size]} ${className}`}
-      aria-label={`Appeler ${SITE.name} au ${SITE.phoneDisplay}`}
+      aria-label={`Contacter ${SITE.name} sur WhatsApp au ${SITE.phoneDisplay}`}
     >
       <IconPhone />
       <span>{SITE.phoneDisplay}</span>

@@ -3,9 +3,9 @@ export const SITE = {
   legalName: "Lift & Go Bruxelles SPRL",
   tagline: "Location de lift à Bruxelles — rapide, sécurisé, professionnel",
   url: "https://www.liftgobruxelles.be",
-  phone: "+32 2 808 45 60",
-  phoneDisplay: "02 808 45 60",
-  phoneHref: "tel:+3228084560",
+  phone: "+32 465 20 86 94",
+  phoneDisplay: "0465208694",
+  phoneHref: "https://wa.me/32465208694",
   email: "contact@liftgobruxelles.be",
   address: {
     street: "Avenue Louise 149",

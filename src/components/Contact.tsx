@@ -22,13 +22,15 @@ export function Contact() {
             <div className="mt-10 space-y-6">
               <a
                 href={SITE.phoneHref}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-4 rounded-2xl bg-white/10 p-5 transition hover:bg-white/20"
               >
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white text-brand-600">
                   <IconPhone />
                 </span>
                 <div>
-                  <p className="text-sm text-brand-200">Appelez maintenant</p>
+                  <p className="text-sm text-brand-200">WhatsApp — réponse rapide</p>
                   <p className="text-2xl font-bold">{SITE.phoneDisplay}</p>
                 </div>
               </a>
