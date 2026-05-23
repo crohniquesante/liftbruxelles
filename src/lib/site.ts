@@ -21,6 +21,8 @@ export const SITE = {
   hours: "Lun–Sam 7h00–20h00",
   priceRange: "€€",
   foundingYear: 2012,
+  heroVideo: "/videos/hero-lift.mp4",
+  heroVideoPoster: "/videos/hero-lift-poster.jpg",
   social: {
     facebook: "https://www.facebook.com/liftgobruxelles",
     linkedin: "https://www.linkedin.com/company/liftgobruxelles",

@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { SITE } from "@/lib/site";
+import { HeroVideo } from "./HeroVideo";
 import { PhoneCTA } from "./PhoneCTA";
 
 export function Hero() {
@@ -52,17 +52,7 @@ export function Hero() {
         </div>
 
         <div className="relative animate-fade-in lg:delay-150">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-premium">
-            <Image
-              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80&auto=format&fit=crop"
-              alt="Location lift Bruxelles — plateforme élévatrice pour déménagement en immeuble"
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-brand-950/40 to-transparent" />
-          </div>
+          <HeroVideo />
           <div className="absolute -bottom-6 -left-4 rounded-2xl bg-white p-5 shadow-card sm:-left-8">
             <p className="text-3xl font-bold text-brand-600">15+</p>
             <p className="text-sm font-medium text-slate-600">ans d&apos;expérience</p>
