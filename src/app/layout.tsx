@@ -49,21 +49,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE.url,
   },
-  openGraph: {
-    type: "website",
-    locale: "fr_BE",
-    url: SITE.url,
-    siteName: SITE.name,
-    title,
-    description,
-    images: [
-      {
-        url: "/opengraph-image",
-        width: 1200,
-        height: 630,
-        alt: "Location lift Bruxelles — Lift & Go Bruxelles",
-      },
-    ],
+  other: {
+    "og:type": "website",
+    "og:locale": "fr_BE",
+    "og:url": SITE.url,
+    "og:site_name": SITE.name,
+    "og:title": title,
+    "og:description": description,
+    "og:image": `${SITE.url}/opengraph-image`,
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "Location lift Bruxelles — Lift & Go Bruxelles",
   },
   robots: {
     index: true,
