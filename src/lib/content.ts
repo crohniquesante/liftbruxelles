@@ -143,7 +143,7 @@ export const INTERVENTIONS = [
   },
   {
     src: "/images/interventions/10.png",
-    alt: "Monte-meuble en intervention rue résidentielle — Lift & Go Bruxelles",
+    alt: "Monte-meuble en intervention rue résidentielle — Nono Lift Bruxelles",
   },
 ] as const;
 
@@ -178,7 +178,7 @@ export const REVIEWS = [
     name: "Sophie M.",
     location: "Ixelles",
     rating: 5,
-    text: "Location lift Bruxelles impeccable pour notre déménagement au 5e sans ascenseur. Équipe ponctuelle, aucune rayure sur les murs. Je recommande vivement Lift & Go.",
+    text: "Location lift Bruxelles impeccable pour notre déménagement au 5e sans ascenseur. Équipe ponctuelle, aucune rayure sur les murs. Je recommande vivement Nono Lift.",
     date: "Mars 2026",
   },
   {
@@ -227,7 +227,7 @@ export const FAQ = [
   {
     question: "Quelle est la différence entre un lift et un monte-meuble ?",
     answer:
-      "Le terme lift désigne généralement la plateforme élévatrice extérieure fixée au bâtiment. Le monte-meuble est le service complet : installation du lift, manutention et montée des objets. Chez Lift & Go Bruxelles, nous proposons les deux en prestation clé en main.",
+      "Le terme lift désigne généralement la plateforme élévatrice extérieure fixée au bâtiment. Le monte-meuble est le service complet : installation du lift, manutention et montée des objets. Chez Nono Lift Bruxelles, nous proposons les deux en prestation clé en main.",
   },
   {
     question: "Intervenez-vous pour un lift déménagement Bruxelles le week-end ?",
@@ -301,7 +301,7 @@ export const SEO_ARTICLE = {
 
     `Chaque plateforme de notre parc est contrôlée hebdomadairement. Nos opérateurs portent les équipements de protection individuelle requis et suivent une formation continue aux normes belges. Nous souscrivons une assurance RC professionnelle couvrant les dommages éventuels liés à l'intervention. Vous déménagez l'esprit tranquille.`,
 
-    `## Pourquoi Lift & Go Bruxelles ?`,
+    `## Pourquoi Nono Lift Bruxelles ?`,
 
     `Transparence des prix, ponctualité, connaissance du terrain urbain bruxellois et service client réactif : voilà ce qui nous distingue. Nos avis clients parlent d'eux-mêmes — une note moyenne de 4,9/5 sur plus de 200 interventions recensées. Que vous cherchiez un **lift Bruxelles** pour un déménagement unique ou un partenariat régulier avec votre société de déménagement, nous adaptons notre prestation à vos besoins.`,
 

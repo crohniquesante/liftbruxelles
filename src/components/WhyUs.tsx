@@ -39,7 +39,7 @@ export function WhyUs() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-white">
             <Image
               src="/images/why-us-truck.png"
-              alt="Camion monte-meuble avec lift télescopique — Lift & Go Bruxelles"
+              alt="Camion monte-meuble avec lift télescopique — Nono Lift Bruxelles"
               fill
               loading="lazy"
               sizes="(max-width: 1024px) 100vw, 50vw"

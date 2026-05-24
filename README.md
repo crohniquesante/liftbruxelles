@@ -1,4 +1,4 @@
-# Lift & Go Bruxelles — Site vitrine
+# Nono Lift Bruxelles — Site vitrine
 
 Site one-page professionnel pour une société de **location de lift à Bruxelles**.
 

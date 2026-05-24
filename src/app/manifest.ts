@@ -4,7 +4,7 @@ import { SITE } from "@/lib/site";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: SITE.name,
-    short_name: "Lift & Go",
+    short_name: "Nono Lift",
     description: SITE.tagline,
     start_url: "/",
     display: "standalone",

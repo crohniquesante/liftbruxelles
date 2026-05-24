@@ -1,13 +1,13 @@
 export const SITE = {
-  name: "Lift & Go Bruxelles",
-  legalName: "Lift & Go Bruxelles SPRL",
+  name: "Nono Lift Bruxelles",
+  legalName: "Nono Lift Bruxelles SPRL",
   tagline: "Location de lift à Bruxelles — rapide, sécurisé, professionnel",
-  url: "https://www.liftgobruxelles.be",
+  url: "https://nono-lift-bruxelles.be",
   logo: "/logo.png",
   phone: "+32 465 20 86 94",
   phoneDisplay: "0465208694",
   phoneHref: "https://wa.me/32465208694",
-  email: "contact@liftgobruxelles.be",
+  email: "nourddine1090@hotmail.com",
   address: {
     street: "Rue Charles Ramaekers 44",
     city: "Laeken",
@@ -25,8 +25,8 @@ export const SITE = {
   heroVideo: "/videos/hero-lift.mp4",
   heroVideoPoster: "/videos/hero-lift-poster.jpg",
   social: {
-    facebook: "https://www.facebook.com/liftgobruxelles",
-    linkedin: "https://www.linkedin.com/company/liftgobruxelles",
+    facebook: "https://www.facebook.com/nonoliftbruxelles",
+    linkedin: "https://www.linkedin.com/company/nono-lift-bruxelles",
   },
 } as const;
 

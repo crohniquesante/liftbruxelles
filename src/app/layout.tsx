@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 const title =
-  "Location Lift Bruxelles | Monte-Meuble & Lift Déménagement — Lift & Go";
+  "Location Lift Bruxelles | Monte-Meuble & Lift Déménagement — Nono Lift";
 const description =
   "Location de lift à Bruxelles dès 60€. Monte-meuble professionnel, lift déménagement dans les 19 communes. Devis gratuit sous 2h ☎ 0465208694. Opérateurs certifiés.";
 
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     "og:image": `${SITE.url}/opengraph-image`,
     "og:image:width": "1200",
     "og:image:height": "630",
-    "og:image:alt": "Location lift Bruxelles — Lift & Go Bruxelles",
+    "og:image:alt": "Location lift Bruxelles — Nono Lift Bruxelles",
   },
   robots: {
     index: true,
