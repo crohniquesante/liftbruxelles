@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { NAV_LINKS, SITE } from "@/lib/site";
 import { PhoneCTA } from "./PhoneCTA";
@@ -10,10 +11,15 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-100/80 bg-white/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a href="#accueil" className="flex items-center gap-2" aria-label={`${SITE.name} — Accueil`}>
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-600 text-lg font-bold text-white">
-            L
-          </span>
+        <a href="#accueil" className="flex items-center gap-3" aria-label={`${SITE.name} — Accueil`}>
+          <Image
+            src={SITE.logo}
+            alt={SITE.name}
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-xl object-cover"
+            priority
+          />
           <div className="hidden sm:block">
             <p className="text-sm font-bold text-slate-900">{SITE.name}</p>
             <p className="text-xs text-slate-500">Lift Bruxelles</p>

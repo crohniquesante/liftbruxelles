@@ -46,6 +46,10 @@ export const metadata: Metadata = {
     telephone: false,
   },
   manifest: "/manifest.json",
+  icons: {
+    icon: SITE.logo,
+    apple: SITE.logo,
+  },
   alternates: {
     canonical: SITE.url,
   },

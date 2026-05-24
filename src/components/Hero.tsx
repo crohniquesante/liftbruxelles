@@ -56,8 +56,10 @@ export function Hero() {
         <div className="relative animate-fade-in lg:delay-150">
           <HeroVideo />
           <div className="absolute -bottom-6 -right-4 rounded-2xl bg-white p-5 shadow-card sm:-right-8">
-            <p className="text-sm font-medium text-slate-600">jusqu&apos;au</p>
-            <p className="text-3xl font-bold text-brand-600">9e étage</p>
+            <p className="text-sm font-medium text-slate-600">Jusqu&apos;au</p>
+            <p className="text-3xl font-bold text-brand-600">
+              9<sup className="text-base font-bold">ème</sup> étage
+            </p>
           </div>
         </div>
       </div>

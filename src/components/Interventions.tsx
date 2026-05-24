@@ -35,11 +35,11 @@ export function Interventions() {
         </div>
 
         <div
-          className="relative mx-auto mt-16 max-w-3xl"
+          className="relative mx-auto mt-16 w-full max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-[320px]"
           aria-roledescription="carousel"
           aria-label="Galerie nos interventions"
         >
-          <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-slate-100 shadow-card sm:aspect-[4/5]">
+          <div className="relative aspect-[9/16] overflow-hidden rounded-2xl bg-slate-100 shadow-card">
             {INTERVENTIONS.map((item, index) => (
               <div
                 key={item.src}
@@ -52,8 +52,8 @@ export function Interventions() {
                   src={item.src}
                   alt={item.alt}
                   fill
-                  sizes="(max-width: 768px) 100vw, 768px"
-                  className="object-contain"
+                  sizes="(max-width: 768px) 280px, 320px"
+                  className="object-contain p-1"
                   priority={index === 0}
                 />
               </div>

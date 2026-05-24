@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { NAV_LINKS, SITE } from "@/lib/site";
 
 export function Footer() {
@@ -8,8 +9,17 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <p className="text-lg font-bold text-white">{SITE.name}</p>
-            <p className="mt-2 text-sm leading-relaxed">
+            <div className="flex items-center gap-3">
+              <Image
+                src={SITE.logo}
+                alt={SITE.name}
+                width={44}
+                height={44}
+                className="h-11 w-11 rounded-xl object-cover"
+              />
+              <p className="text-lg font-bold text-white">{SITE.name}</p>
+            </div>
+            <p className="mt-3 text-sm leading-relaxed">
               Spécialiste en location de lift et monte-meuble à Bruxelles depuis{" "}
               {SITE.foundingYear}. Lift déménagement, livraisons et chantiers.
             </p>

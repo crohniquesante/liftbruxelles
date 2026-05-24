@@ -12,7 +12,7 @@ export function localBusinessSchema() {
     telephone: SITE.phone,
     email: SITE.email,
     image: `${SITE.url}/opengraph-image`,
-    logo: `${SITE.url}/logo.svg`,
+    logo: `${SITE.url}${SITE.logo}`,
     priceRange: SITE.priceRange,
     foundingDate: String(SITE.foundingYear),
     address: {
