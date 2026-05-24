@@ -1,4 +1,5 @@
 import { PRICING } from "@/lib/content";
+import { SITE } from "@/lib/site";
 import { IconCheck } from "./icons";
 import { PhoneCTA } from "./PhoneCTA";
 
@@ -60,7 +61,9 @@ export function Tarifs() {
                 ))}
               </ul>
               <a
-                href="#contact"
+                href={SITE.phoneHref}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`mt-8 block rounded-full py-3 text-center text-sm font-semibold transition ${
                   plan.popular
                     ? "bg-white text-brand-700 hover:bg-brand-50"
@@ -75,7 +78,8 @@ export function Tarifs() {
 
         <p className="mt-8 text-center text-sm text-slate-500">
           * Prix indicatifs TVAC. Le tarif final dépend du nombre d&apos;étages, de
-          l&apos;accessibilité et de la durée réelle.
+          l&apos;accessibilité, de la nature des objets à monter (encombrement, poids,
+          fragilité) et de la durée réelle d&apos;intervention.
         </p>
 
         <div className="mt-12 flex justify-center">

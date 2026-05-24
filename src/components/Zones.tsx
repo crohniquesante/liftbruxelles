@@ -13,7 +13,7 @@ export function Zones() {
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             Intervention rapide dans toute la Région de Bruxelles-Capitale et la périphérie
-            proche. Pas de supplément zone standard.
+            proche.
           </p>
         </div>
 

@@ -28,7 +28,9 @@ export function Hero() {
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
             <PhoneCTA size="large" />
             <a
-              href="#contact"
+              href={SITE.phoneHref}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full border-2 border-slate-200 bg-white px-8 py-4 text-base font-semibold text-slate-700 transition hover:border-brand-300 hover:text-brand-700"
             >
               Devis gratuit en ligne
@@ -54,8 +56,8 @@ export function Hero() {
         <div className="relative animate-fade-in lg:delay-150">
           <HeroVideo />
           <div className="absolute -bottom-6 -right-4 rounded-2xl bg-white p-5 shadow-card sm:-right-8">
-            <p className="text-3xl font-bold text-brand-600">3+</p>
-            <p className="text-sm font-medium text-slate-600">ans d&apos;expérience</p>
+            <p className="text-sm font-medium text-slate-600">jusqu&apos;au</p>
+            <p className="text-3xl font-bold text-brand-600">9e étage</p>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ const inter = Inter({
 const title =
   "Location Lift Bruxelles | Monte-Meuble & Lift Déménagement — Lift & Go";
 const description =
-  "Location de lift à Bruxelles dès 290€. Monte-meuble professionnel, lift déménagement dans les 19 communes. Devis gratuit sous 2h ☎ 0465208694. Opérateurs certifiés.";
+  "Location de lift à Bruxelles dès 60€. Monte-meuble professionnel, lift déménagement dans les 19 communes. Devis gratuit sous 2h ☎ 0465208694. Opérateurs certifiés.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),

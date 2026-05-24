@@ -34,33 +34,32 @@ export const SERVICES = [
   {
     title: "Assistance déménageur",
     description:
-      "Partenariat avec déménageurs locaux : nous fournissons le lift, ils gèrent l'emballage. Solution clé en main pour particuliers et entreprises.",
+      "Partenariat avec déménageurs locaux et camionnettes : nous fournissons le lift, ils gèrent le transport. Solution clé en main pour particuliers et entreprises.",
     icon: "users",
   },
 ] as const;
 
 export const PRICING = [
   {
-    name: "Demi-journée",
-    price: "à partir de 290 €",
-    duration: "4 heures",
+    name: "Déménagement complet",
+    price: "à partir de 110 €",
+    duration: "2 heures",
     features: [
-      "Installation et démontage inclus",
-      "Opérateur certifié",
-      "Jusqu'à 4e étage",
-      "Assurance RC professionnelle",
+      "Idéal si déménagement complet",
+      "Emplacement déjà réservé",
+      "Zone Bruxelles",
+      "Devis détaillé gratuit",
     ],
     popular: false,
   },
   {
-    name: "Journée complète",
-    price: "à partir de 490 €",
-    duration: "8 heures",
+    name: "Déménagement simple",
+    price: "à partir de 60 €",
+    duration: "1 heure",
     features: [
-      "Idéal déménagement complet",
-      "Lift jusqu'à 6e étage",
-      "2 opérateurs inclus",
-      "Support téléphonique prioritaire",
+      "Idéal si marchandise unique (frigo, canapé...)",
+      "Emplacement déjà réservé",
+      "Zone Bruxelles",
       "Devis détaillé gratuit",
     ],
     popular: true,
@@ -74,7 +73,9 @@ export const PRICING = [
       "Plusieurs adresses",
       "Week-end et soirée",
       "Entreprises & syndics",
-      "Facturation TVA déductible",
+      "Facturation",
+      "Au delà du 2ème étage",
+      "Accès difficile",
     ],
     popular: false,
   },
@@ -87,9 +88,9 @@ export const WHY_US = [
       "Depuis 2023, nous intervenons quotidiennement dans les 19 communes. Nous connaissons les contraintes urbaines : rues étroites, permis de stationnement, immeubles classés.",
   },
   {
-    title: "Équipe certifiée & assurée",
+    title: "Équipe expérimentée",
     description:
-      "Tous nos opérateurs sont formés aux normes de sécurité belges. Assurance responsabilité civile professionnelle incluse sur chaque prestation.",
+      "Notre domaine d'expertise, nous maîtrisons chaque étape d'un déménagement : nos équipes appliquent les normes de sécurité belges et savent dérouler chaque prestation sans accroc.",
   },
   {
     title: "Matériel premium",
@@ -99,7 +100,7 @@ export const WHY_US = [
   {
     title: "Réactivité garantie",
     description:
-      "Devis sous 2 h ouvrées. Disponibilité 7 jours sur 7. Ligne directe pour les urgences déménagement et livraisons en hauteur.",
+      "Réponse instantannée. Disponibilité 7 jours sur 7. Ligne directe pour les urgences déménagement et livraisons en hauteur.",
   },
 ] as const;
 
@@ -178,7 +179,7 @@ export const FAQ = [
   {
     question: "Combien coûte une location de lift à Bruxelles ?",
     answer:
-      "Le tarif dépend de la durée, du nombre d'étages et de l'accessibilité. Comptez à partir de 290 € pour une demi-journée (4 h) avec opérateur et installation incluses. Nous établissons un devis gratuit et sans engagement sous 2 heures ouvrées.",
+      "Le tarif dépend de la durée, du nombre d'étages, de l'accessibilité et de la nature des objets à monter. Comptez à partir de 60 € pour un déménagement simple (1 h, marchandise unique, emplacement déjà réservé en zone Bruxelles). Le déménagement complet (2 h) démarre à 110 € dans les mêmes conditions. Devis gratuit et sans engagement sous 2 heures ouvrées.",
   },
   {
     question: "Quelle est la différence entre un lift et un monte-meuble ?",
@@ -203,7 +204,7 @@ export const FAQ = [
   {
     question: "Proposez-vous un service monte-meuble Bruxelles sans déménageur ?",
     answer:
-      "Oui. Nous pouvons uniquement fournir le lift avec opérateur pendant que vous ou votre déménageur chargez. Nous proposons aussi une formule complète avec manutention incluse.",
+      "Oui. Nous pouvons uniquement fournir le lift avec opérateur pendant que vous ou votre déménageur chargez.",
   },
   {
     question: "En combien de temps installez-vous le lift ?",
@@ -229,7 +230,7 @@ export const SEO_ARTICLE = {
 
     `## Pourquoi choisir un lift déménagement Bruxelles plutôt que les escaliers ?`,
 
-    `Monter un canapé trois places dans un escalier en colimaçon n'est pas qu'une question de force : c'est un risque élevé pour vos revêtements, vos articulations et vos meubles. Le **lift déménagement Bruxelles** élimine ces contraintes. La plateforme extérieure suit un trajet vertical contrôlé ; les sangles professionnelles absorbent les chocs. Résultat : un déménagement plus rapide, souvent deux à trois heures gagnées sur une journée complète.`,
+    `Monter un canapé trois places dans un escalier en colimaçon n'est pas qu'une question de force : c'est un risque élevé pour vos revêtements, vos articulations et vos meubles. Le **lift déménagement Bruxelles** élimine ces contraintes. La plateforme extérieure suit un trajet vertical contrôlé ; les sangles professionnelles absorbent les chocs. Résultat : un déménagement plus rapide, souvent plusieurs heures gagnées par rapport à une montée par escalier.`,
 
     `Les assureurs et les propriétaires apprécient cette approche. Aucune trace de choc sur les murs communs, pas de bruit excessif dans la cage d'escalier, pas de blocage de l'accès pour les voisins. Pour les copropriétés exigeantes — fréquentes dans les quartiers Louise, Sablon ou European Quarter — c'est un argument décisif.`,
 
@@ -237,13 +238,13 @@ export const SEO_ARTICLE = {
 
     `Le processus est simple. Vous nous contactez par téléphone ou via le formulaire en ligne. Nous posons quelques questions essentielles : adresse exacte, étage, type d'accès (fenêtre, balcon, terrasse), liste approximative des objets lourds, date souhaitée. Sous deux heures ouvrées, vous recevez un devis détaillé, transparent, sans frais cachés.`,
 
-    `Le jour de l'intervention, notre camion équipée arrive au créneau convenu. L'opérateur installe le bras du lift et fixe la plateforme selon les règles de sécurité. Vous ou votre déménageur placez les meubles sur la plateforme ; nous assurons la montée et la descente en toute sécurité. En fin de prestation, nous démontons le matériel et nettoyons la zone de travail. Durée totale : selon le volume, entre une demi-journée et une journée complète.`,
+    `Le jour de l'intervention, notre camion équipée arrive au créneau convenu. L'opérateur installe le bras du lift et fixe la plateforme selon les règles de sécurité. Vous ou votre déménageur placez les meubles sur la plateforme ; nous assurons la montée et la descente en toute sécurité. En fin de prestation, nous démontons le matériel et nettoyons la zone de travail. Durée totale : de 1 heure pour une marchandise unique à 2 heures pour un déménagement complet, selon le volume.`,
 
     `## Monte-meuble Bruxelles : prestations et tarifs`,
 
     `Notre offre de **monte-meuble Bruxelles** couvre plusieurs scénarios. Le déménagement résidentiel reste notre cœur de métier : studios, appartements familiaux, maisons avec jardin. Nous intervenons aussi pour les livraisons de magasins de meubles lorsque le client final habite en étage. Les entreprises nous sollicitent pour déplacer des archives, des serveurs ou du mobilier de bureau. Les chantiers de rénovation utilisent notre lift pour acheminer des matériaux en toiture ou en arrière-corps.`,
 
-    `Côté tarifs, la demi-journée démarre à 290 € TVAC avec opérateur et assurance inclus. La formule journée complète, à partir de 490 €, convient aux déménagements importants avec deux opérateurs. Pour les chantiers longue durée ou les besoins spécifiques, nous établissons un devis sur mesure. Tous nos prix incluent l'installation, le démontage et l'assurance responsabilité civile professionnelle.`,
+    `Côté tarifs, la formule Déménagement simple démarre à 60 € TVAC pour une heure d'intervention — idéale pour une marchandise unique (frigo, canapé…) avec emplacement déjà réservé en zone Bruxelles. Le Déménagement complet commence à 110 € TVAC pour deux heures dans les mêmes conditions. Pour les chantiers longue durée ou les besoins spécifiques, nous établissons un devis sur mesure. Tous nos prix incluent l'installation, le démontage et l'assurance responsabilité civile professionnelle.`,
 
     `## Zones desservies et délais d'intervention`,
 

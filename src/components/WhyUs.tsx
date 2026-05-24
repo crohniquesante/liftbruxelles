@@ -14,7 +14,7 @@ export function WhyUs() {
               Le partenaire lift Bruxelles de confiance
             </h2>
             <p className="mt-4 text-lg text-slate-300">
-              Plus de 3 000 déménagements réalisés en Région bruxelloise. Nous combinons
+              Plus de 600 déménagements réalisés en Région bruxelloise. Nous combinons
               réactivité, expertise locale et matériel haut de gamme pour un service
               monte-meuble Bruxelles sans compromis.
             </p>
@@ -36,14 +36,14 @@ export function WhyUs() {
             </div>
           </div>
 
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-white">
             <Image
-              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80&auto=format&fit=crop"
-              alt="Équipe professionnelle monte-meuble Bruxelles — Lift & Go"
+              src="/images/why-us-truck.png"
+              alt="Camion monte-meuble avec lift télescopique — Lift & Go Bruxelles"
               fill
               loading="lazy"
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-contain p-2"
             />
           </div>
         </div>
