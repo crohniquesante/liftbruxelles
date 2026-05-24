@@ -41,18 +41,6 @@ export const SERVICES = [
 
 export const PRICING = [
   {
-    name: "Déménagement complet",
-    price: "à partir de 110 €",
-    duration: "2 heures",
-    features: [
-      "Idéal si déménagement complet",
-      "Emplacement déjà réservé",
-      "Zone Bruxelles",
-      "Devis détaillé gratuit",
-    ],
-    popular: false,
-  },
-  {
     name: "Déménagement simple",
     price: "à partir de 60 €",
     duration: "1 heure",
@@ -63,6 +51,18 @@ export const PRICING = [
       "Devis détaillé gratuit",
     ],
     popular: true,
+  },
+  {
+    name: "Déménagement complet",
+    price: "à partir de 110 €",
+    duration: "2 heures",
+    features: [
+      "Idéal si déménagement complet",
+      "Emplacement déjà réservé",
+      "Zone Bruxelles",
+      "Devis détaillé gratuit",
+    ],
+    popular: false,
   },
   {
     name: "Sur mesure",
