@@ -4,7 +4,7 @@ export function HeroVideo() {
   return (
     <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-premium">
       <video
-        className="h-full w-full object-cover"
+        className="h-full w-full scale-[1.06] object-cover"
         autoPlay
         muted
         loop

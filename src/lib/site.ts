@@ -18,9 +18,9 @@ export const SITE = {
     latitude: 50.8263,
     longitude: 4.3594,
   },
-  hours: "Lun–Sam 7h00–20h00",
+  hours: "7j/7 · 7h00–20h00",
   priceRange: "€€",
-  foundingYear: 2012,
+  foundingYear: 2023,
   heroVideo: "/videos/hero-lift.mp4",
   heroVideoPoster: "/videos/hero-lift-poster.jpg",
   social: {

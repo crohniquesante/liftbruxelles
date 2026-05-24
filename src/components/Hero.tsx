@@ -21,8 +21,8 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
             <strong>Lift déménagement Bruxelles</strong>, monte-meuble professionnel et
-            intervention rapide dans les 19 communes. Devis gratuit sous 2 h — opérateurs
-            certifiés, matériel premium, assurance incluse.
+            intervention rapide dans les 19 communes. Devis gratuit et réponse instantanée — opérateurs
+            expérimentés, matériel premium, déménagement serein.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -38,7 +38,7 @@ export function Hero() {
           <ul className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-500">
             <li className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              Disponible 6j/7
+              Disponible 7j/7
             </li>
             <li className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
@@ -53,8 +53,8 @@ export function Hero() {
 
         <div className="relative animate-fade-in lg:delay-150">
           <HeroVideo />
-          <div className="absolute -bottom-6 -left-4 rounded-2xl bg-white p-5 shadow-card sm:-left-8">
-            <p className="text-3xl font-bold text-brand-600">15+</p>
+          <div className="absolute -bottom-6 -right-4 rounded-2xl bg-white p-5 shadow-card sm:-right-8">
+            <p className="text-3xl font-bold text-brand-600">3+</p>
             <p className="text-sm font-medium text-slate-600">ans d&apos;expérience</p>
           </div>
         </div>

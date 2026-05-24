@@ -38,6 +38,7 @@ export function localBusinessSchema() {
           "Thursday",
           "Friday",
           "Saturday",
+          "Sunday",
         ],
         opens: "07:00",
         closes: "20:00",

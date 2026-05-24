@@ -82,9 +82,9 @@ export const PRICING = [
 
 export const WHY_US = [
   {
-    title: "15 ans d'expérience à Bruxelles",
+    title: "3 ans d'expérience à Bruxelles",
     description:
-      "Depuis 2012, nous intervenons quotidiennement dans les 19 communes. Nous connaissons les contraintes urbaines : rues étroites, permis de stationnement, immeubles classés.",
+      "Depuis 2023, nous intervenons quotidiennement dans les 19 communes. Nous connaissons les contraintes urbaines : rues étroites, permis de stationnement, immeubles classés.",
   },
   {
     title: "Équipe certifiée & assurée",
@@ -99,7 +99,7 @@ export const WHY_US = [
   {
     title: "Réactivité garantie",
     description:
-      "Devis sous 2 h ouvrées. Disponibilité 6 jours sur 7. Ligne directe pour les urgences déménagement et livraisons en hauteur.",
+      "Devis sous 2 h ouvrées. Disponibilité 7 jours sur 7. Ligne directe pour les urgences déménagement et livraisons en hauteur.",
   },
 ] as const;
 
@@ -188,7 +188,7 @@ export const FAQ = [
   {
     question: "Intervenez-vous pour un lift déménagement Bruxelles le week-end ?",
     answer:
-      "Oui, nous sommes disponibles du lundi au samedi, 7h à 20h, y compris le samedi. Les interventions dominicales sont possibles sur demande pour les urgences, avec un léger supplément indiqué sur le devis.",
+      "Oui, nous sommes disponibles 7 jours sur 7, de 7h à 20h, y compris le week-end. Contactez-nous pour planifier votre intervention ou pour une urgence déménagement.",
   },
   {
     question: "Faut-il une autorisation pour installer un lift à Bruxelles ?",
@@ -225,7 +225,7 @@ export const SEO_ARTICLE = {
 
     `Le marché du **lift Bruxelles** a considérablement évolué ces dernières années. Les immeubles bruxellois, souvent anciens, présentent des contraintes uniques : cages d'escalier étroites, virages serrés, façades en pierre bleue et fenêtres à dimensions non standard. Un **monte-meuble Bruxelles** professionnel ne se limite pas à louer une machine : il s'agit d'une prestation complète incluant l'installation sécurisée, la manutention experte et le respect des normes belges en vigueur.`,
 
-    `Optez pour un prestataire local qui connaît les 19 communes. À Ixelles comme à Molenbeek, les règles de stationnement pour positionner le camion-lift diffèrent. Un opérateur expérimenté anticipe ces démarches administratives et vous évite des retards le jour J. Notre équipe intervient depuis plus de quinze ans ; nous avons monté des milliers de meubles dans des copropriétés classées, des maisons de maître à Uccle et des studios à Saint-Gilles.`,
+    `Optez pour un prestataire local qui connaît les 19 communes. À Ixelles comme à Molenbeek, les règles de stationnement pour positionner le camion-lift diffèrent. Un opérateur expérimenté anticipe ces démarches administratives et vous évite des retards le jour J. Notre équipe intervient depuis 2023 ; nous avons déjà monté de nombreux meubles dans des copropriétés classées, des maisons de maître à Uccle et des studios à Saint-Gilles.`,
 
     `## Pourquoi choisir un lift déménagement Bruxelles plutôt que les escaliers ?`,
 
