@@ -279,7 +279,7 @@ export const SEO_ARTICLE = {
 
     `## Comment fonctionne une location de lift à Bruxelles ?`,
 
-    `Le processus est simple. Vous nous contactez par téléphone ou via le formulaire en ligne. Nous posons quelques questions essentielles : adresse exacte, étage, type d'accès (fenêtre, balcon, terrasse), liste approximative des objets lourds, date souhaitée. Sous deux heures ouvrées, vous recevez un devis détaillé, transparent, sans frais cachés.`,
+    `Le processus est simple. Vous nous contactez par téléphone ou WhatsApp. Nous posons quelques questions essentielles : adresse exacte, étage, type d'accès (fenêtre, balcon, terrasse), liste approximative des objets lourds, date souhaitée. Sous deux heures ouvrées, vous recevez un devis détaillé, transparent, sans frais cachés.`,
 
     `Le jour de l'intervention, notre camion équipée arrive au créneau convenu. L'opérateur installe le bras du lift et fixe la plateforme selon les règles de sécurité. Vous ou votre déménageur placez les meubles sur la plateforme ; nous assurons la montée et la descente en toute sécurité. En fin de prestation, nous démontons le matériel et nettoyons la zone de travail. Durée totale : de 1 heure pour une marchandise unique à 2 heures pour un déménagement complet, selon le volume.`,
 
