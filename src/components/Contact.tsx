@@ -12,7 +12,7 @@ export function Contact() {
               Contact
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-              Devis gratuit sous 2 heures
+              Réponse instantannée
             </h2>
             <p className="mt-4 text-lg text-brand-100">
               Besoin d&apos;un lift Bruxelles en urgence ou d&apos;un devis pour votre

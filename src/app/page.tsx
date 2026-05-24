@@ -1,3 +1,4 @@
+import { Interventions } from "@/components/Interventions";
 import { Contact } from "@/components/Contact";
 import { FAQSection } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function HomePage() {
         <Services />
         <Tarifs />
         <WhyUs />
+        <Interventions />
         <Zones />
         <Reviews />
         <SeoArticle />

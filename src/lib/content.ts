@@ -104,6 +104,49 @@ export const WHY_US = [
   },
 ] as const;
 
+export const INTERVENTIONS = [
+  {
+    src: "/images/interventions/01.png",
+    alt: "Monte-meuble déployé jusqu'à un balcon en hauteur — immeuble en briques à Bruxelles",
+  },
+  {
+    src: "/images/interventions/02.png",
+    alt: "Camion lift avec échelle télescopique le long d'un immeuble résidentiel bruxellois",
+  },
+  {
+    src: "/images/interventions/03.png",
+    alt: "Montée de matelas par fenêtre avec monte-meuble en centre-ville",
+  },
+  {
+    src: "/images/interventions/04.png",
+    alt: "Lift extérieur installé devant un immeuble — intervention monte-meuble Bruxelles",
+  },
+  {
+    src: "/images/interventions/05.png",
+    alt: "Monte-meuble déployé vers un balcon — immeuble en briques rouges",
+  },
+  {
+    src: "/images/interventions/06.png",
+    alt: "Lift télescopique atteignant un étage élevé d'un immeuble résidentiel",
+  },
+  {
+    src: "/images/interventions/07.png",
+    alt: "Intervention lift dans une rue commerçante bruxelloise",
+  },
+  {
+    src: "/images/interventions/08.png",
+    alt: "Montée de canapé avec monte-meuble — immeuble en angle à Bruxelles",
+  },
+  {
+    src: "/images/interventions/09.png",
+    alt: "Opérateur et camion lift devant un immeuble en briques",
+  },
+  {
+    src: "/images/interventions/10.png",
+    alt: "Monte-meuble en intervention rue résidentielle — Lift & Go Bruxelles",
+  },
+] as const;
+
 export const ZONES = [
   "Bruxelles-Ville",
   "Ixelles",
@@ -248,7 +291,7 @@ export const SEO_ARTICLE = {
 
     `## Zones desservies et délais d'intervention`,
 
-    `Nous couvrons l'intégralité de Bruxelles-Ville, ainsi que chaque commune de la périphérie immédiate : Schaerbeek, Evere, Auderghem, Koekelberg, Jette, Berchem, et bien d'autres. Notre base Avenue Louise nous permet une réactivité optimale — la plupart des interventions sont planifiées sous 48 à 72 heures, avec possibilité d'urgence sous 24 heures selon disponibilité.`,
+    `Nous couvrons l'intégralité de Bruxelles-Ville, ainsi que chaque commune de la périphérie immédiate : Schaerbeek, Evere, Auderghem, Koekelberg, Jette, Berchem, et bien d'autres. Notre base à Laeken nous permet une réactivité optimale — la plupart des interventions sont planifiées sous 48 à 72 heures, avec possibilité d'urgence sous 24 heures selon disponibilité.`,
 
     `## Conseils pratiques avant le jour du lift`,
 
