@@ -42,7 +42,7 @@ export const SERVICES = [
 export const PRICING = [
   {
     name: "Déménagement simple",
-    price: "à partir de 60 €",
+    price: "à partir de 50 €",
     duration: "1 heure",
     features: [
       "Idéal si marchandise unique (frigo, canapé...)",
@@ -54,7 +54,7 @@ export const PRICING = [
   },
   {
     name: "Déménagement complet",
-    price: "à partir de 110 €",
+    price: "à partir de 100 €",
     duration: "2 heures",
     features: [
       "Idéal si déménagement complet",
@@ -222,7 +222,7 @@ export const FAQ = [
   {
     question: "Combien coûte une location de lift à Bruxelles ?",
     answer:
-      "Le tarif dépend de la durée, du nombre d'étages, de l'accessibilité et de la nature des objets à monter. Comptez à partir de 60 € pour un déménagement simple (1 h, marchandise unique, emplacement déjà réservé en zone Bruxelles). Le déménagement complet (2 h) démarre à 110 € dans les mêmes conditions. Devis gratuit et sans engagement sous 2 heures ouvrées.",
+      "Le tarif dépend de la durée, du nombre d'étages, de l'accessibilité et de la nature des objets à monter. Comptez à partir de 50 € pour un déménagement simple (1 h, marchandise unique, emplacement déjà réservé en zone Bruxelles). Le déménagement complet (2 h) démarre à 100 € dans les mêmes conditions. Devis gratuit et sans engagement sous 2 heures ouvrées.",
   },
   {
     question: "Quelle est la différence entre un lift et un monte-meuble ?",
@@ -287,7 +287,7 @@ export const SEO_ARTICLE = {
 
     `Notre offre de **monte-meuble Bruxelles** couvre plusieurs scénarios. Le déménagement résidentiel reste notre cœur de métier : studios, appartements familiaux, maisons avec jardin. Nous intervenons aussi pour les livraisons de magasins de meubles lorsque le client final habite en étage. Les entreprises nous sollicitent pour déplacer des archives, des serveurs ou du mobilier de bureau. Les chantiers de rénovation utilisent notre lift pour acheminer des matériaux en toiture ou en arrière-corps.`,
 
-    `Côté tarifs, la formule Déménagement simple démarre à 60 € TVAC pour une heure d'intervention — idéale pour une marchandise unique (frigo, canapé…) avec emplacement déjà réservé en zone Bruxelles. Le Déménagement complet commence à 110 € TVAC pour deux heures dans les mêmes conditions. Pour les chantiers longue durée ou les besoins spécifiques, nous établissons un devis sur mesure. Tous nos prix incluent l'installation, le démontage et l'assurance responsabilité civile professionnelle.`,
+    `Côté tarifs, la formule Déménagement simple démarre à 50 € TVAC pour une heure d'intervention — idéale pour une marchandise unique (frigo, canapé…) avec emplacement déjà réservé en zone Bruxelles. Le Déménagement complet commence à 100 € TVAC pour deux heures dans les mêmes conditions. Pour les chantiers longue durée ou les besoins spécifiques, nous établissons un devis sur mesure. Tous nos prix incluent l'installation, le démontage et l'assurance responsabilité civile professionnelle.`,
 
     `## Zones desservies et délais d'intervention`,
 
